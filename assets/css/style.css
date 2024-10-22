@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: black;
+    width: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/226/358/339/muscles-dark-men-fitness-model-model-hd-wallpaper-preview.jpg');
+    background-size: 75%;
+}
+
+
+header {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: 'oswald', sans-serif;
+    text-align: center;
+    color: #252525;
+    letter-spacing: 2px;
+}
+
+
+#menu {
+    color: white;
+    list-style: none;
+    letter-spacing: 4px;
+    font-size: 110%;
+}
+
+#menu li {
+    margin-bottom: 1em;
+    display: flex;
+}
+
+h2 {
+    font-family: 'oswald', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: darkmagenta;
+}
+
+h3 {
+    color: #252525;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main .feel-good {
+    text-align: center;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.feel-good {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+}
+
+
+
+li a {
+    color: white;
+}
+
+.header-2 h1 {
+    color: white;
+    font-family: 'lato', sans-serif;
+}
+
+.header-3 h1 {
+    color: white;
+    font-family: 'lato', sans-serif;
+}
+
+.Registration-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Registration-form h2 {
+    font: size 40px;
+    text-transform: uppercase;
+}
+
+.Registration-form input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.Registration-form button {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: purple;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .right {
+    text-align: center;
+}
